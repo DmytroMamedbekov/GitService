@@ -1,5 +1,3 @@
-import org.springframework.stereotype.Component;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,7 +7,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Objects;
 
-@Component
 public class GitService {
     private static final String CONFIG_REPOSITORY_URL = "git@example.git.host:user/repository.git";
     private static final String RELATIVE_LOCAL_GIT_FOLDER = "/repositoryFolder";
